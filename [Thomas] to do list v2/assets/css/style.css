@@ -1,0 +1,107 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5rem;
+    background-color: rgb(225, 215, 157);
+    margin-bottom: 3rem;
+    border-radius: 20px;
+}
+
+.form .text{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.form .poubelle{
+    background-color: rgb(234, 75, 75);
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.nom{
+    margin-left: 10%;
+    width: 50%;
+}
+
+.contenue{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.form p{
+    font-size: 1.2rem;
+    margin-left: 10%;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.form button{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 0.3rem;
+    background-color: rgb(137, 137, 241);
+    color: aliceblue;
+}
+
+
+
+
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list article{
+    background-color: rgb(192, 186, 166);
+    border: 1px solid black;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.list article h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+div{
+    background-color: rgb(237, 239, 134);
+    width: 70%;
+    margin-left: 15%;
+    padding: 1rem;
+}
+
+div h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+div p{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+#test{
+    background-color: blue;
+}
+
+
+input{
+    margin-left: 5rem;
+}

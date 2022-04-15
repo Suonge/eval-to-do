@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="form">
+        <article class="text">
+            <article>
+                <p>Nom du mémo :</p>
+                <textarea name="" id="" class="nom" cols="30" rows="1"></textarea>
+                <input type="color" value="#edef86">
+            </article>
+            <p>Contenue du mémo :</p>
+            <textarea name="" id="" class="contenue" cols="30" rows="3"></textarea>
+            <button>Valider</button>
+        </article>
+        <article class="poubelle"  id="poubelle" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="/assets/img/poubelle.png" alt="">
+        </article>
+    </section>
+    
+    <section class="list">
+        <article class="todo" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>TO DO</h2>
+        </article>
+        <article class="done" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>DONE</h2>
+        </article>
+        <article class="valider" id="valider" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>VERIFIED</h2>
+        </article>
+    </section>
+
+
+    <script type="text/javascript" src="assets/js.js"></script>
+</body>
+</html>
